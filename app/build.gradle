@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "dev.benergy10.madpractical"
+        applicationId "sg.edu.np.mad.madpractical"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1

@@ -1,4 +1,4 @@
-package dev.benergy10.madpractical;
+package sg.edu.np.mad.madpractical;
 
 public class User {
     private String name;

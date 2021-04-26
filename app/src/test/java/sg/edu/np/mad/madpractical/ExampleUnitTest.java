@@ -1,4 +1,4 @@
-package dev.benergy10.madpractical;
+package sg.edu.np.mad.madpractical;
 
 import org.junit.Test;
 

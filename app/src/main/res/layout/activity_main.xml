@@ -24,6 +24,7 @@
                 android:layout_height="128dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="32dp"
+                android:contentDescription="profile picture"
                 android:foregroundGravity="center_horizontal"
                 tools:srcCompat="@tools:sample/avatars" />
 
