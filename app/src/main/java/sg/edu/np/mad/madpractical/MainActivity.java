@@ -1,6 +1,10 @@
 package sg.edu.np.mad.madpractical;
 
+import android.animation.LayoutTransition;
 import android.os.Bundle;
+import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -24,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         this.textViewDescription = findViewById(R.id.textViewDescription);
         this.buttonFollow = findViewById(R.id.buttonFollow);
         this.buttonMessage = findViewById(R.id.buttonMessage);
+
+        ((ViewGroup) findViewById(R.id.buttonsLayout)).getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
 
         User dummyUser = new User("Ben", "Code. Create. Coordinate.",  1, false);
         this.setUser(dummyUser);
