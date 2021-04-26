@@ -24,7 +24,7 @@
                 android:layout_height="128dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="32dp"
-                android:contentDescription="profile picture"
+                android:contentDescription="@string/profile_picture"
                 android:foregroundGravity="center_horizontal"
                 app:srcCompat="@drawable/ic_launcher_background"
                 tools:srcCompat="@drawable/ic_launcher_background" />
@@ -65,7 +65,7 @@
                     android:id="@+id/buttonFollow"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Follow" />
+                    android:text="@string/follow" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
                     android:id="@+id/buttonMessage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Message" />
+                    android:text="@string/message" />
 
                 <Space
                     android:layout_width="wrap_content"

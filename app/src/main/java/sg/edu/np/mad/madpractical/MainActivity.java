@@ -45,6 +45,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateUserFollowState() {
-        this.buttonFollow.setText(this.user.isFollowed() ? "Unfollow" : "Follow");
+        this.buttonFollow.setText(this.user.isFollowed() ? R.string.unfollow : R.string.follow);
     }
 }
