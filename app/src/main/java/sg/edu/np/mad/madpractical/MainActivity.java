@@ -20,17 +20,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.textViewName = findViewById(R.id.textViewName);
-        this.textViewDescription = findViewById(R.id.textViewDescription);
-        this.buttonFollow = findViewById(R.id.buttonFollow);
-        this.buttonMessage = findViewById(R.id.buttonMessage);
-
-        User dummyUser = new User("Ben", "Code. Create. Coordinate.",  1, false);
-        this.setUser(dummyUser);
-        this.buttonFollow.setOnClickListener(v -> {
-            this.user.setFollowed(!this.user.isFollowed());
-            this.updateUserFollowState();
-        });
+//        this.textViewName = findViewById(R.id.textViewName);
+//        this.textViewDescription = findViewById(R.id.textViewDescription);
+//        this.buttonFollow = findViewById(R.id.buttonFollow);
+//        this.buttonMessage = findViewById(R.id.buttonMessage);
+//
+//        User dummyUser = new User("Ben", "Code. Create. Coordinate.",  1, false);
+//        this.setUser(dummyUser);
+//        this.buttonFollow.setOnClickListener(v -> {
+//            this.user.setFollowed(!this.user.isFollowed());
+//            this.updateUserFollowState();
+//        });
     }
 
     private void setUser(User user) {

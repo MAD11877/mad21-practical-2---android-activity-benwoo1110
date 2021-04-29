@@ -29,66 +29,66 @@
                 android:foregroundGravity="center_horizontal"
                 app:srcCompat="@drawable/ic_launcher_foreground" />
 
-            <TextView
-                android:id="@+id/textViewName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="32dp"
-                android:text="Hello World!"
-                android:textAlignment="center"
-                android:textSize="36sp"
-                android:textStyle="bold" />
+<!--            <TextView-->
+<!--                android:id="@+id/textViewName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="32dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginEnd="32dp"-->
+<!--                android:text="Hello World!"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textSize="36sp"-->
+<!--                android:textStyle="bold" />-->
 
-            <TextView
-                android:id="@+id/textViewDescription"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="32dp"
-                android:text="@string/placeholder"
-                android:textAlignment="center" />
+<!--            <TextView-->
+<!--                android:id="@+id/textViewDescription"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="32dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginEnd="32dp"-->
+<!--                android:text="@string/placeholder"-->
+<!--                android:textAlignment="center" />-->
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:orientation="horizontal">
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:orientation="horizontal">-->
 
-                <Space
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+<!--                <Space-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1" />-->
 
-                <Button
-                    android:id="@+id/buttonFollow"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/follow" />
+<!--                <Button-->
+<!--                    android:id="@+id/buttonFollow"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/follow" />-->
 
-                <Space
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+<!--                <Space-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1" />-->
 
-                <Button
-                    android:id="@+id/buttonMessage"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/message" />
+<!--                <Button-->
+<!--                    android:id="@+id/buttonMessage"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/message" />-->
 
-                <Space
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+<!--                <Space-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1" />-->
 
-            </LinearLayout>
+<!--            </LinearLayout>-->
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="80dp" />
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="80dp" />-->
 
         </LinearLayout>
     </ScrollView>
