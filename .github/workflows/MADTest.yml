@@ -14,7 +14,7 @@ jobs:
       - name: Checkout Test Scripts
         uses: actions/checkout@v2
         with:
-          repository: benwoo1110/MAD_JunitPrac2
+          repository: Lowkh/MAD_JunitPrac2
           path: testDirectory
       - name: Check files
         run: |
